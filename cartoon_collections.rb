@@ -29,7 +29,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each_with_index do |word|
-    if array[index].include?
+    if array[index].include?("cheddar")
   end
   
 end
