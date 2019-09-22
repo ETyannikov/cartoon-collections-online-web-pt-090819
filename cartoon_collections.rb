@@ -33,8 +33,9 @@ def find_the_cheese(array)
       return array[index]
     elsif array[index].include?("gouda")
       return array[index]
-    elsif array[index].include?("gouda")
+    elsif array[index].include?("camembert")
       return array[index]
+    end
   end
-  
+  return nil
 end
